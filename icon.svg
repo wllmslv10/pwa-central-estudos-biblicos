@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+<rect width="192" height="192" rx="34" fill="#101d35"/>
+<g stroke="#d9b45b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+<path d="M96 54C79 42 57 40 34 48v59c23-8 45-6 62 6z" fill="#fffaf0"/>
+<path d="M96 54c17-12 39-14 62-6v59c-23-8-45-6-62 6z" fill="#fffaf0"/>
+<path d="M96 54v59" fill="none"/>
+<path d="M96 58v25M86 70.5h20" stroke-width="5"/>
+<path d="M46 61c13-3 25-2 36 3M46 73c13-3 25-2 36 3M110 64c11-5 23-6 36-3M110 76c11-5 23-6 36-3" fill="none" stroke-width="2.5"/>
+</g>
+<text x="96" y="151" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="2" fill="#fff">CEB</text>
+</svg>
