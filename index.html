@@ -12,7 +12,9 @@
 <title>Central de Estudos Bíblicos</title>
 <script>
 const SITE_PRINCIPAL='https://wllmslv10.github.io/central-estudos-biblicos/';
-if (window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true) {
+const instalado=window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+const abrirCentral=new URLSearchParams(window.location.search).get('abrir') === 'central';
+if (instalado || abrirCentral) {
   window.location.replace(SITE_PRINCIPAL);
 }
 </script>
