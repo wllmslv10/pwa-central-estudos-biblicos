@@ -1,5 +1,5 @@
-const CACHE_NAME = 'pwa-ceb-shell-v5';
-const SHELL = ['./', './index.html', './manifest.webmanifest', './icon-192.svg', './icon-512.svg'];
+const CACHE_NAME = 'pwa-ceb-shell-v6';
+const SHELL = ['./', './index.html', './manifest.webmanifest', './icon.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(SHELL)).then(() => self.skipWaiting()));
 });
